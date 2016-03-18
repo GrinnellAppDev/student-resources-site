@@ -22,3 +22,11 @@
 .resourcetype {
 
 }
+
+.help {
+
+}
+
+.help ul {
+	list-style-type: none;
+}
