@@ -1,5 +1,24 @@
 .page_header {
-	width: 600px;
-	padding-right: 100px;
-	padding-top: 100px;
+	width: 85%;
+	padding-top: 50px;
+}
+
+.main {
+
+}
+
+.main p {
+
+}
+
+.phone {
+
+}
+
+.resourcelist {
+	list-style-type: none;
+}
+
+.resourcetype {
+
 }
