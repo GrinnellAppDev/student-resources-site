@@ -30,3 +30,43 @@
 .help ul {
 	list-style-type: none;
 }
+
+.studenttype {
+
+}
+
+.actions {
+  
+}
+
+/* Footer CSS from http://appdev.grinnell.edu */
+/* Set the fixed height of the footer here */
+#footer {
+  min-height: 40px;
+  background-color: #505050;
+  bottom:0px;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.text-muted a {
+	color: #ececec;
+}
+
+.text-muted a:hover {
+	color: #c66161;
+}
