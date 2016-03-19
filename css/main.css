@@ -8,19 +8,23 @@
 }
 
 .main p {
-
+  font-size: 18pt;
 }
 
 .phone {
-
+  color: #E1261C;
+  font-size: 18pt;
 }
 
 .resourcelist {
 	list-style-type: none;
+  font-size: 18pt;
 }
 
 .resourcetype {
-
+  font-style: bold;
+  font-size: 24pt;
+  color: #E1261C;
 }
 
 .help {
@@ -29,14 +33,17 @@
 
 .help ul {
 	list-style-type: none;
+  font-size: 18pt;
 }
 
 .studenttype {
-
+  font-style: bold;
+  font-size: 24pt;
 }
 
 .actions {
-  
+  font-style: bold;
+  font-size: 20pt;
 }
 
 /* Footer CSS from http://appdev.grinnell.edu */
@@ -50,6 +57,7 @@
 #wrap > .container {
   padding: 60px 15px 0;
 }
+
 .container .text-muted {
   margin: 20px 0;
 }
