@@ -1,2 +1,2 @@
 ## Grinnell College Student Resources
-Designed and built by [Sarah Trop](https://github.com/sarahtrop), Design Lead at Grinnell AppDev
+Designed and built by [Sarah Trop](https://github.com/sarahtrop), Design Lead at Grinnell AppDev, for the Grinnell College Student Assistance through Grinnell AppDev

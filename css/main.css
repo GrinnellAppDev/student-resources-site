@@ -4,7 +4,7 @@
 }
 
 .main {
-
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .main p {
@@ -12,7 +12,7 @@
 }
 
 .phone {
-  color: #E1261C;
+  color: #1CBEE1;
   font-size: 18pt;
 }
 
@@ -22,13 +22,14 @@
 }
 
 .resourcetype {
-  font-style: bold;
-  font-size: 24pt;
+  font-size: 20pt;
   color: #E1261C;
 }
 
 .help {
-
+  font-size: 24pt;
+  font-style: bold;
+  color: #131313;
 }
 
 .help ul {
@@ -37,8 +38,7 @@
 }
 
 .studenttype {
-  font-style: bold;
-  font-size: 24pt;
+  font-size: 20pt;
 }
 
 .actions {
