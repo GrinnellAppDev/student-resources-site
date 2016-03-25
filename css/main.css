@@ -5,45 +5,76 @@
 
 .main {
   font-family: "Helvetica Neue", sans-serif;
+  font-size: 18pt;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
-.main p {
-  font-size: 18pt;
+.main a:hover {
+  color: #E1261C;
 }
 
 .phone {
   color: #1CBEE1;
-  font-size: 18pt;
+  font-size: 12pt;
+}
+
+.phone:hover {
+  color: #1CBEE1;
+}
+
+.small {
+  font-size: 12pt;
+}
+
+.whoare a {
+  font-size: 16pt;
+  color: #000000;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.whoare a:hover {
+  color: #E1261C;
 }
 
 .resourcelist {
 	list-style-type: none;
-  font-size: 18pt;
+  font-size: 14pt;
 }
 
 .resourcetype {
-  font-size: 20pt;
+  font-size: 24pt;
   color: #E1261C;
+  font-family: "Footlight MT Light", serif;
 }
 
 .help {
   font-size: 24pt;
   font-style: bold;
   color: #131313;
+  font-family: "Footlight MT Light", serif;
 }
 
 .help ul {
-	list-style-type: none;
-  font-size: 18pt;
+  font-size: 14pt;
+  list-style-position: left;
+}
+
+.ifastudent {
+  color: #E1261C;
+
 }
 
 .studenttype {
-  font-size: 20pt;
+  font-size: 18pt;
+  font-family: "Footlight MT Light", serif;
 }
 
 .actions {
-  font-style: bold;
-  font-size: 20pt;
+  font-style: italic;
+  font-size: 18pt;
+  font-family: "Footlight MT Light", serif;
 }
 
 /* Footer CSS from http://appdev.grinnell.edu */
@@ -51,20 +82,12 @@
 #footer {
   min-height: 40px;
   background-color: #505050;
-  bottom:0px;
+  bottom: 0px;
+  width: 100%;
 }
 
-#wrap > .container {
-  padding: 60px 15px 0;
-}
-
-.container .text-muted {
+.text-muted {
   margin: 20px 0;
-}
-
-#footer > .container {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 code {
@@ -72,9 +95,40 @@ code {
 }
 
 .text-muted a {
-	color: #ececec;
+	color: #ECECEC;
 }
 
 .text-muted a:hover {
-	color: #c66161;
+	color: #E1261C;
+}
+
+.footic {
+  filter: grayscale(100%) brightness(150%);
+  -webkit-filter: grayscale(100%) brightness(150%);
+  -moz-filter: grayscale(100%) brightness(150%);
+  -o-filter: grayscale(100%) brightness(150%);
+  -ms-filter: grayscale(100%) brightness(150%);
+  transition: -webkit-filter 0.2s ease-out;
+  -webkit-transition: -webkit-filter 0.2s ease-out;
+  -moz-transition: -webkit-filter 0.2s ease-out;
+  -o-transition: -webkit-filter 0.2s ease-out;
+  -ms-transition: -webkit-filter 0.2s ease-out;
+}
+
+.footic:hover {
+  filter: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  transition: -webkit-filter 0.2s ease-out;
+  -webkit-transition: -webkit-filter 0.2s ease-out;
+  -moz-transition: -webkit-filter 0.2s ease-out;
+  -o-transition: -webkit-filter 0.2s ease-out;
+  -ms-transition: -webkit-filter 0.2s ease-out;
+}
+
+#footer img {
+  width:30px;
+  height:30px;
 }
