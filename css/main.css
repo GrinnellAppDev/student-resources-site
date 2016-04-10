@@ -1,11 +1,14 @@
+@font-face { font-family: Dyslexie; src: url('Dyslexie.ttf'); } 
+@font-face { font-family: Dyslexie; font-weight: bold; src: url('Dyslexie.ttf');}
+
 .page_header {
 	width: 85%;
 	padding-top: 50px;
 }
 
 .main {
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 18pt;
+  font-family: "Dyslexie", sans-serif;
+  font-size: 16pt;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -46,14 +49,14 @@
 .resourcetype {
   font-size: 24pt;
   color: #E1261C;
-  font-family: "Footlight MT Light", serif;
+  font-family: "Footlight MT Light", sans-serif;
 }
 
 .help {
   font-size: 24pt;
   font-style: bold;
   color: #131313;
-  font-family: "Footlight MT Light", serif;
+  font-family: "Footlight MT Light", sans-serif;
 }
 
 .help ul {
@@ -68,13 +71,13 @@
 
 .studenttype {
   font-size: 18pt;
-  font-family: "Footlight MT Light", serif;
+  font-family: "Footlight MT Light", sans-serif;
 }
 
 .actions {
   font-style: italic;
   font-size: 18pt;
-  font-family: "Footlight MT Light", serif;
+  font-family: "Footlight MT Light", sans-serif;
 }
 
 /* Footer CSS from http://appdev.grinnell.edu */
